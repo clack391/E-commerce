@@ -5,9 +5,10 @@
     "description": "Week 3 Project",
     "version": "1.0.0"
   },
-  "host": "localhost:8080",
+  "host": "https://e-commerce-t34p.onrender.com",
   "basePath": "/",
   "schemes": [
+    "https",
     "http"
   ],
   "paths": {
