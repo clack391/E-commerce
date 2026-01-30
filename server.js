@@ -13,6 +13,7 @@ const GitHubStrategy = require('passport-github2').Strategy;
 
 
 app.use(express.json());
+app.set('trust proxy', 1); // Trust first proxy (Render/Heroku)
 app.use(session({
     secret: process.env.SESSION_SECRET,
     resave: false,
